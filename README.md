@@ -1,5 +1,6 @@
 
 The Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert
+https://www.udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/learn/lecture/7026232?start=90#overview
 
 - Learn the ins and outs of SQL syntax
 - Generate reports using sales and user data
