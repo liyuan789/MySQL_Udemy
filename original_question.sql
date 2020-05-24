@@ -96,6 +96,11 @@ INNER JOIN likes
 GROUP BY likes.user_id
 HAVING number_likes = (SELECT COUNT(*) FROM photos);
 
-# The WHERE clause is applied first to the individual rows in the tables or table-valued objects in the Diagram pane. Only the rows that meet the conditions in the WHERE clause are grouped.
+WHERE 与 HAVING 的区别：
 
-# The HAVING clause is then applied to the rows in the result set. Only the groups that meet the HAVING conditions appear in the query output. You can apply a HAVING clause only to columns that also appear in the GROUP BY clause or in an aggregate function.
+# The WHERE clause is applied first to the individual rows in the tables or table-valued objects in the Diagram pane. 
+# Only the rows that meet the conditions in the WHERE clause are grouped.
+
+# The HAVING clause is then applied to the rows in the result set. 
+# Only the groups that meet the HAVING conditions appear in the query output. 
+# You can apply a HAVING clause only to columns that also appear in the GROUP BY clause or in an aggregate function.
